@@ -69,4 +69,12 @@ print(ask12)
 age = 18
 print('my age is %d' % age)
 
+age = 30
+print('my age is %d' % age)
 
+#slicing this the third parameter
+s = 'I am Kevin'
+s[0:8:2]
+#it will read from character one to 9th then subtract 1 from 2 and the get one 
+#it will the read s by skipping one charater at a time
+print(s[0:8:2])
