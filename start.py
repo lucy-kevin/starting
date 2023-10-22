@@ -78,3 +78,9 @@ s[0:8:2]
 #it will read from character one to 9th then subtract 1 from 2 and the get one 
 #it will the read s by skipping one charater at a time
 print(s[0:8:2])
+s= 'abcd' * 4
+print(s)
+
+print(s[2::3])
+s = "string"
+print(s[::-1])
